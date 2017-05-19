@@ -1,0 +1,329 @@
+@charset "utf-8";
+/* CSS Document */
+
+.home
+{
+	background:url(../images/home-bg.png);
+	font-size:12px;
+}
+.mt8
+{
+	margin-top:8px;
+}
+.mT25
+{
+	margin-top:25px;
+}
+.text-bold
+{
+	font-weight:bold;
+}
+.grey
+{
+	color:#777;
+	line-height:18px;
+}
+.tiles
+{
+	padding:100px 5px;
+	color:#fff;
+	line-height:22px;
+}
+.tiles1
+{
+		background-color:#00b050;
+}
+.tiles2
+{
+		background-color:#954eca;
+		padding-top:15px;
+}
+.tiles3
+{
+		background-color:#00b0f0;
+				padding-top:15px;
+
+}
+.tiles4
+{
+		background-color:#ff7171;
+}
+.tiles5
+{
+		background-color:#0070c0;
+}
+.tiles6
+{
+		background-color:#44c8b2;
+}
+.tiles7
+{
+		background-color:#4f81bd;
+}
+.mT14
+{
+	margin-top:14px;
+}
+.home_container
+{
+	background: #fff;
+	background:url(../images/bg1.png);
+	font-family: "Segoe UI";
+}
+.header
+{
+	margin-top:20px;
+	padding-bottom:30px;
+}
+.visitors {
+	background: #eee; /* Old browsers */
+    background: -moz-linear-gradient(left,  #eeeeee 1%, #cccccc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(1%,#eeeeee), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #eeeeee 1%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #eeeeee 1%,#cccccc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #eeeeee 1%,#cccccc 100%); /* IE10+ */
+    background: linear-gradient(to right,  #eeeeee 1%,#cccccc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=1 ); /* IE6-9 */
+ background: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 2px,
+    #fff 10px,
+    #ccc 20px
+  ),
+  /* on "bottom" */
+  linear-gradient(
+    to bottom,
+    #eee,
+    #ccc
+  );
+height: 25px;
+border:solid 1px #ccc;
+}
+.mR10 {
+margin-right: 10px;
+}
+.fleft {
+float: left;
+}
+.fright {
+float: right;
+}
+.mt8 {
+margin-top: 8px;
+}
+.like_link a {
+color: #1c87bd;
+text-decoration: underline;
+margin: 0 4px;
+font-size: 14px;
+}
+.visitors span {
+font-size: 16px;
+font-weight: 700;
+color: #575757;
+letter-spacing: 11px;
+line-height:26px;
+
+padding-left: 5px;
+}
+.mtn2
+{
+	margin-top:-6px;
+}
+.mt5
+{
+	margin-top:5px;
+}
+.mT15
+{
+	margin-top:15px;
+}
+.mT10
+{
+	margin-top:10px;
+}
+.grey i
+	{
+		font-size:20px;
+		color:#009bc3;
+	}
+	.home .carousel-indicators li {
+	border: 1px solid #3b9ac0;
+}
+.home .carousel-indicators .active {
+  background-color: #3b9ac0;
+}
+.home .carousel-indicators {
+bottom: -32px;
+}
+.mT30 {
+margin-top: 30px;
+}
+.footer
+{
+	margin-bottom:17px;
+}
+	@media screen and (max-width: 480px) {
+	.mt-xs-10
+	{
+		margin-top:10px;
+	}
+	.mt-xs-20
+	{
+		margin-top:20px;
+	}
+	.mb-xs-10
+	{
+		margin-bottom:10px;
+	}
+	.tiles4, .tiles6
+	{
+		width: 46.666667%;
+	}
+	.pull-xs-right
+	{
+		float:right;
+	}
+	.tiles4
+	{
+		padding: 23px 6px;
+	}
+	.mT14 {
+margin-top: 8px;
+}
+.tiles {
+padding: 10px 5px;
+color: #fff;
+line-height: 16px;
+font-size: 12px;
+}
+
+	}
+	@media screen and (max-width: 768px) {
+	.mt-xs-10
+	{
+		margin-top:10px;
+	}
+	.mt-xs-20
+	{
+		margin-top:20px;
+	}
+	.mb-xs-10
+	{
+		margin-bottom:10px;
+	}
+	.tiles4, .tiles6
+	{
+		width: 46.666667%;
+	}
+	.pull-xs-right
+	{
+		float:right;
+	}
+	.tiles4
+	{
+		padding: 23px 6px;
+	}
+	.tiles5
+	{
+		padding: 22px 6px;
+	}
+	.mT14 {
+margin-top: 8px;
+}
+	}
+@media (min-width: 768px) {
+.grey i
+	{
+		font-size:15px;
+		color:#009bc3;
+	}
+	.tiles {
+padding: 8px 5px;
+color: #fff;
+line-height: 12px;
+font-size: 11px;
+}
+
+.mT25 {
+margin-top: 0px;
+}
+.pull-sm-right
+{
+	float:right;
+}
+.mT10 {
+margin-top: 6px;
+}
+.mt-sm-0
+{
+	margin-top:0px !important;
+}
+
+}
+@media (min-width:768px) and (max-width:992px)
+{
+	.tiles4 img
+{
+	width:40%;
+}
+.tiles6 img
+{
+	width:50%;
+}
+}
+
+@media (min-width: 992px) {
+.grey i
+	{
+		font-size:20px;
+		color:#009bc3;
+	}
+	.tiles {
+padding: 8px 5px;
+color: #fff;
+line-height: 18px;
+font-size: 12px;
+}
+.tiles4
+{
+	padding: 33px 5px;
+	width:45%;
+}
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+  .grey i
+	{
+		font-size:35px;
+		color:#009bc3;
+	}
+	.home .col-lg-9.banner_left
+{
+	width:68%;
+}
+.home .col-lg-3.banner_right
+{
+	width:32%;
+}
+.home .col-lg-5.tiles4
+{
+	width:47%;
+}
+.tiles
+{
+	padding:10px 5px;
+	color:#fff;
+	line-height:23px;
+	font-size:12px;
+}
+.mT25 {
+margin-top: 25px;
+}
+.mT29 {
+margin-top: 29px;}
+}
